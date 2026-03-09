@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://canyon-crest/react-app-Jonathan-X-Bananaman",
+  "homepage": "https://canyon-crest.github.io/react-app-Jonathan-X-Bananaman",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
