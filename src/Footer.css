@@ -1,0 +1,10 @@
+#footer p{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    font-size: 15px;
+    margin: auto;
+    padding: 20px;
+    color:yellow;
+    background-color: darkgoldenrod;
+}

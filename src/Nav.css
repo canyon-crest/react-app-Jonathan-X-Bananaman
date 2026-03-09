@@ -1,0 +1,21 @@
+#header ul{
+    background-color: yellow;
+    color: rgb(100, 64, 0);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#header ul li{
+    font-size: 20px;
+    padding:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
