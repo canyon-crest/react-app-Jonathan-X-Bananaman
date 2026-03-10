@@ -5,8 +5,8 @@ function Nav(){
         <div id="header">
             <ul>
                 <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>History</li>
+                <li>Recipes</li>
             </ul>
         </div>
     )

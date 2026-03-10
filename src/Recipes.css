@@ -1,0 +1,16 @@
+#recipes h1{
+    color:rgb(25, 25, 0);
+  }
+#recipes p{
+    color:rgb(25, 25, 0);
+  }
+#recipes div{
+    background-color: rgb(218, 187, 32);
+  }
+#recipes button{
+    background-color: darkgoldenrod;
+    margin-left:10px;
+    margin-right:10px;
+    border: 3px dashed rgb(218,187,32);
+    color: rgb(249, 249, 150);
+}
