@@ -2,10 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Nav from './Nav.jsx'
+import Footer from './Footer.jsx'
+import Home from './Home.jsx'
+import History from './History.jsx'
+import Recipes from './Recipes.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [page, setPage]=useState("home")
   return (
     <>
       {/*<div>
@@ -29,15 +34,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
   </p>*/}
-    <div>
-      <h1>All About Bananas</h1>
-        <ul id="facts">
-            <li>Bananas are fruits</li>
-            <li>Ripe bananas are usually yellow</li>
-            <li>Bananas produce antimatter</li>
-        </ul>
-        <hr></hr>
-    </div>
+    <Nav setPage={setPage} />
+    {page==="home" && <Home />}
+    {page==="history" && <History />}
+    {page==="recipes" && <Recipes />}
+    <Footer />
     </>
   )
 }

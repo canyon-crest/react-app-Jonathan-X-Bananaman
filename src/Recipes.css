@@ -4,13 +4,27 @@
 #recipes p{
     color:rgb(25, 25, 0);
   }
-#recipes div{
+#recipes{
     background-color: rgb(218, 187, 32);
   }
-#recipes button{
+#add-recipe{
     background-color: darkgoldenrod;
     margin-left:10px;
     margin-right:10px;
     border: 3px dashed rgb(218,187,32);
     color: rgb(249, 249, 150);
+}
+.Card{
+  border: 2px dotted darkgoldenrod;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: yellow;
+}
+.Card button{
+  background-color: darkgoldenrod;
+  margin-left:20px;
+  margin-right:20px;
+  border: 3px yellow;
+  color: rgb(249, 249, 150);
 }
