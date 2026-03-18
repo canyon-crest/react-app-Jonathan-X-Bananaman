@@ -1,4 +1,5 @@
 import './Home.css'
+import Api from './Api.jsx'
 
 function Home(){
     return(
@@ -9,6 +10,7 @@ function Home(){
             <li>Ripe bananas are usually yellow</li>
             <li>Bananas produce antimatter</li>
         </ul>
+        <Api />
         <hr></hr>
     </div>
     )

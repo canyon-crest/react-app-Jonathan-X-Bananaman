@@ -69,7 +69,7 @@ function GoogleFirebase() {
       fetchMessages();
     }
   }, [user]);
-
+ 
   // UI rendering
   return (
     <div>
@@ -94,6 +94,7 @@ function GoogleFirebase() {
           <p>Please log in with Google to continue.</p>
           <button onClick={handleLogin}>Login with Google</button>
         </div>
+        
       )}
     </div>
   );
