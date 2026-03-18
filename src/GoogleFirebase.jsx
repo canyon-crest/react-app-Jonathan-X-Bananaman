@@ -73,7 +73,7 @@ function GoogleFirebase() {
   // UI rendering
   return (
     <div>
-      <h1>Firebase + React App with Google Log-in</h1>
+      {/*<h1>Firebase + React App with Google Log-in</h1>*/}
       {/* If user is logged in, show greeting, logout button, and messages */}
       {user ? (
         <div>
